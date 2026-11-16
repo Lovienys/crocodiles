@@ -6,6 +6,12 @@ body {
 
 h1, h2, h3 {
   font-family: "Merriweather", serif;
+  h1, h2, blockquote {
+color: #ae1762;
+font-family:
+'Merriweather’,
+serif;
+}
 }
 
 section, header {
@@ -33,11 +39,6 @@ p, blockquote {
   font-size: 1.5rem;
   line-height: 1.5;
 }
-h1, h2, blockquote {
-color: #ae1762;
-font-family:
-'Merriweather’,
-serif;
-}
+
 
 
