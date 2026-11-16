@@ -11,21 +11,33 @@ h1, h2, h3 {
 section, header {
   width: 80%;
   max-width: 800px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 h1 {
   font-size: 4.3rem;
-  margin: 0.67em 0;
+  margin: 2em 0 1em 0;
 }
 
 h2 {
   font-size: 2.986rem;
+  margin: 3em 0 1em 0;
 }
 
 h3 {
   font-size: 2.488rem;
+  margin: 3em 0 1em 0;
 }
 
+p, blockquote {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+h1, h2, blockquote {
+color: #ae1762;
+font-family:
+'Merriweather’,
+serif;
+}
 
 
