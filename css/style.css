@@ -1,7 +1,7 @@
 
 body {
-    background: #f7f7f7;
-    color: #6b0a1f;
+    background: hsl(0, 0%, 97%);
+    color: hsl(35, 93%, 29%);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
 section, header {
@@ -9,17 +9,15 @@ section, header {
     max-width: 800px;
     margin: auto;}
 
-/* Typography */
-
-h1, h2 {
+h1 {font-size: 7.594rem;}
     font-family: "Merriweather", serif;}
 
 h1, h2, blockquote {
-  color: #6b0a1f;}
+  color: oklab(50.952% 0.04755 0.10186);}
 
 h1 {font-size: 7.594rem;
     line-height: 1.1;
-    color: #07325b;
+    color: hsl(227, 86%, 25%);
    margin: 5rem 0 1rem 0;}
 
 h2 {font-size: 2.250rem;
@@ -28,7 +26,7 @@ h2 {font-size: 2.250rem;
 header h2 {
     font-family: "Merriweather", serif;
     font-weight: 300;
-    color: #6b0a1f;
+    color: hsl(35, 93%, 29%);
     font-style: oblique;
     margin: 1rem 0 4rem 0;} 
 
@@ -36,7 +34,7 @@ header p
     {font-family: "Merriweather", serif;
     font-size: 1.5rem;
     font-weight: 300;
-    color: #092074;}
+    color: hsl(227, 86%, 25%);}
 
 p, blockquote {
     margin-bottom: 1.5rem;
