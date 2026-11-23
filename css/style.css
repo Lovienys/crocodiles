@@ -24,13 +24,43 @@ margin: 6rem }
 
 .responsivenav { 
     background-color: lch(50.4% 64.02 64.28);
-passing-bottom: 10px;
-font-displat: flex;
-justify-content: space-between;
-align-items: center; 
+    padding-bottom: 10px;
+    font-display: flex;
+    justify-content: space-between;
+    align-items: center; 
 }
 
 #logo {
     font-size: 2rem;
     color: hwb(0 100% 0%);
+    font-family: "DM Serif Display", serif;
+    font-weight: 600;
+    padding-left: 35px
+
+}
+
+nav {
+    display: flex;
+    padding: 1.4rem 0;
+    font-SIZE: 0.8rem;
+}
+
+nav ul {
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style: none;
+    padding-right: 70px;
+}
+
+nav ul li {
+    displayP: inline;
+    margin-top: 5px;
+}
+
+nav a {
+    border-bottom: none; 
+    colour: hwb(0 100% 0%);
+    padding: 10px; 
+
 }
