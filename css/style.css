@@ -22,3 +22,15 @@ h1 {font-size: 7.593rem;
     color: hwb(227 4% 58%);
 margin: 6rem }
 
+.responsivenav { 
+    background-color: lch(50.4% 64.02 64.28);
+passing-bottom: 10px;
+font-displat: flex;
+justify-content: space-between;
+align-items: center; 
+}
+
+#logo {
+    font-size: 2rem;
+    color: hwb(0 100% 0%);
+}
