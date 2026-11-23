@@ -1,59 +1,24 @@
-
 body {
-    background: hsl(0, 0%, 97%);
-    color: hsl(35, 93%, 29%);
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
-
-section, header {
-    width: 80%;
-    max-width: 800px;
-    margin: auto;}
-
-h1 {font-size: 7.594rem;}
-    font-family: "Merriweather", serif;}
-
-h1, h2, blockquote {
-  color: oklab(50.952% 0.04755 0.10186);}
-
-h1 {font-size: 7.594rem;
-    line-height: 1.1;
-    color: hsl(227, 86%, 25%);
-   margin: 5rem 0 1rem 0;}
-
-h2 {font-size: 2.250rem;
-    margin: 6rem 0 2rem 0;}
-
-header h2 {
-    font-family: "Merriweather", serif;
-    font-weight: 300;
-    color: hsl(35, 93%, 29%);
-    font-style: oblique;
-    margin: 1rem 0 4rem 0;} 
-
-header p 
-    {font-family: "Merriweather", serif;
+    background-color: hsl(0, 0%, 97%);
+    color:hwb(227 4% 58%);;
+    font-family: "DM Serif Display", serif;;
+}
+h1 {font-size: 7rem;}
+header p {
     font-size: 1.5rem;
-    font-weight: 300;
-    color: hsl(227, 86%, 25%);}
+    color:lch(50.4% 64.02 64.28);
+}
 
+h2 {
+    font-size: 1.953rem;
+    margin: 3em 0 1em 0;
+}
 p, blockquote {
-    margin-bottom: 1.5rem;
-    line-height: 1.5}
-
-blockquote {
-    font-family: "Merriweather", serif;
-    line-height: 1.6;
-    font-style: italic;
-    font-size: 1.5rem;
-    hanging-punctuation: first;
-    text-indent: -0.6rem;
-    margin: 4rem 0 2rem 0;
-    } 
-
-footer {
-    text-align: center;
-    margin: 4rem 0;
-} 
-
-
+    margin-bottom:1.5rem;
+    line-height: 1.5
+}
+h1 {font-size: 7.593rem;
+     line-height: 1.1;
+    color: hwb(227 4% 58%);
+margin: 6rem }
 
