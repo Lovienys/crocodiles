@@ -33,7 +33,7 @@ links:
 
 category: global
 */
-html { line-sizing: normal; }
+html { line-height: normal; }
 
 
 /* @docs
@@ -120,15 +120,13 @@ label: Responsive Embeds
 
 note: |
   1. Block display is usually what we want
-  2. The `vertical-align` removes strange space-below in case authors overwrite the display value
-  3. Responsive by default
-  4. Audio without `[controls]` remains hidden by default
+  2. Responsive by default
+  3. Audio without `[controls]` remains hidden by default
 
 category: embedded elements
 */
 img, svg, video, canvas, audio, iframe, embed, object {
   display: block;
-  vertical-align: middle;
   max-width: 100%;
 }
 audio:not([controls]) { display:none; }
